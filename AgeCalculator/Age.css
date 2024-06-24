@@ -1,0 +1,50 @@
+
+
+body{
+    background-color:yellow;
+    text-align:center;
+}
+
+.box{
+    height:auto;
+    width:auto;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    border-radius:5px;
+}
+
+p{
+    font-size:25px;
+}
+
+#birthday{
+    width:140px;
+    padding:13px;
+    margin-left:90px;
+    border:2px solid blue;
+    border-radius:5px;
+    font-size:16px;
+}
+
+#btn{
+    width:180px;
+    padding:13px;
+    margin-left:85px;
+    border:2px solid blue;
+    border-radius:5px;
+    font-size:16px;
+    background-color:grey;
+    color:white;
+    cursor:pointer;
+}
+#btn:hover{
+    background-color: red;
+}
+#result{
+    height:50px;
+    width:auto;
+    font-size:35px;
+    color:black;
+}
