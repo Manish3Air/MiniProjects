@@ -1,0 +1,67 @@
+.container {
+  height: auto;
+  width: auto;
+  margin: 0px auto;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: pink;
+}
+
+#count {
+  width: 240px;
+  font-size: 80px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+  border: 1px solid;
+  border-radius: 3px;
+  background-color: white;
+}
+
+#buttons {
+  display: flex;
+  gap: 8px;
+}
+
+#increase {
+  width: 160px;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#increase:hover {
+  background-color: red;
+}
+
+#decrease {
+  width: 160px;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#decrease:hover {
+  background-color: red;
+}
+
+#reset {
+  width: 160px;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+#Reset:hover {
+  background-color: red;
+}
