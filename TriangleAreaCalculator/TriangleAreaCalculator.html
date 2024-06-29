@@ -1,0 +1,32 @@
+<!DOCTYPEhtml>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Triangle Area Calculator</title>
+            <link rel="stylesheet" href="TriangleAreaCalculator.css">
+        </head>
+
+        <body>
+            <h1>Triangle Area Calculator</h1>
+            
+            <form id="triangleForm">
+                <label for="sideA">Side A:</label>
+                <input id="sideA" type="number" required /><br />
+
+                <label for="sideB">Side B:</label>
+                <input id="sideB" type="number" required /><br />
+
+                <label for="sideC">Side C:</label>
+                <input id="sideC" type="number" required /><br />
+
+                
+                <button type="button" onclick="calculateArea()">Calculate Area</button>
+            </form>
+
+            
+            <div id="result"></div>
+            <script src="TriangleAreaCalculator.js"></script>
+        </body>
+
+    </html>
