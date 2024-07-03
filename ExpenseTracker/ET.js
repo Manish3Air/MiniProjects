@@ -1,4 +1,4 @@
-function addExpense() {
+
     function addExpense() {
         
         const expenseName = document.getElementById('expenseName').value;
@@ -41,4 +41,3 @@ function addExpense() {
         alert('Expense added successfully');
     }
     
-}
